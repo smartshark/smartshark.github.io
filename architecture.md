@@ -2,7 +2,6 @@
 layout: page
 title: Architecture
 permalink: /architecture/
-redirect_from: "/"
 ---
 
 

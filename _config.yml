@@ -27,6 +27,10 @@ defaults:
       path: "assets/database_design.png"
     values:
       image: true
+  - scope:
+      path: "assets/logo.png"
+    values:
+      image: true
 
 # Build settings
 markdown: kramdown
