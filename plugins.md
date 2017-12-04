@@ -27,7 +27,7 @@ The creation of a plugin is not complicated. It should adhere to the structure d
 For python plugins there are numerous examples to look at, e.g., [coastSHARK], [issueSHARK].
 Additionally, we have one Java plugin, the [refSHARK].
 
-## Currently available plugins
+## Currently available plugins for data collection or analysis
 
 The following plugins are currently available.
 
@@ -37,20 +37,40 @@ This plugin extracts data from version control systems, e.g., git.
 
 ### [MecoSHARK]
 
-todo
-
-### [IssueSHARK]
-
-todo
-
-### [RefSHARK]
-
-todo
+Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
 
 ### [CoastSHARK]
 
-This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types.
-It uses the AST to also extract every import from every file.
+This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
+
+### [IssueSHARK]
+
+Collects data from issue tracking systems, e.g., Jira, Bugzilla, and GitHub issues.
+
+### [MailingSHARK]
+
+Collects data from mailing lists.
+
+### [TravisSHARK]
+
+Collects data from [Travis CI].
+
+### [RefSHARK]
+
+Analyzes Java source code to determine refactorings.
+
+### [LabelSHARK]
+
+Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes. 
+
+### [MynbouSHARK]
+
+Creates defect prediction data sets a release of a software version. 
+
+### [IdentitySHARK]
+
+Identifies and merges different identities of the same person, e.g., in the issue tracking system and the version control system.
+
 
 
 [serverSHARK]: https://github.com/smartshark/servershark
@@ -60,5 +80,12 @@ It uses the AST to also extract every import from every file.
 [coastSHARK]: https://github.com/smartshark/coastshark
 [pycoshark]: https://github.com/smartshark/pycoshark
 [refshark]: https://github.com/smartshark/refshark
+[labelshark]: https://github.com/smartshark/labelSHARK
+[mynboushark]: https://github.com/smartshark/mynbouSHARK
+[identityshark]: https://github.com/smartshark/identitySHARK
+[mailingshark]: https://github.com/smartshark/mailingSHARK
+[travisshark]: https://github.com/smartshark/travisSHARK
 [javalang]: https://github.com/c2nes/javalang
 [ast]: https://docs.python.org/3/library/ast.html
+[sourcemeter]: https://www.sourcemeter.com/
+[Travis CI]: https://travis-ci.org/
