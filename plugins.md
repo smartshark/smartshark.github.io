@@ -31,17 +31,17 @@ Additionally, we have one Java plugin, the [refSHARK].
 
 The following plugins are currently available.
 
-- [vcsSHARK]: This plugin extracts data from version control systems, e.g., git.
-- [mecoSHARK]: Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
-- [coastSHARK]: This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
-- [issueSHARK]: Collects data from issue tracking systems, e.g., Jira, Bugzilla, and GitHub issues.
-- [mailingshark]: Collects data from mailing lists.
-- [travisshark]: Collects data from [Travis CI].
-- [refshark]: Analyzes Java source code to determine refactorings.
-- [labelshark]: Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes. 
-- [mynboushark]: Creates defect prediction data sets a release of a software version. 
-- [identityshark]: Identifies and merges different identities of the same person, e.g., in the issue tracking system and the version control system.
-- [memeSHARK]: Compresses stored code entity states without losing information by removing states that did not change in commits. 
+- [vcsSHARK](https://github.com/smartshark/vcsSHARK): This plugin extracts data from version control systems, e.g., git.
+- [mecoSHARK](https://github.com/smartshark/mecoSHARK): Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
+- [coastSHARK](https://github.com/smartshark/coastSHARK): This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
+- [issueSHARK](https://github.com/smartshark/issueSHARK): Collects data from issue tracking systems, e.g., Jira, Bugzilla, and GitHub issues.
+- [mailingSHARK](https://github.com/smartshark/mailingSHARK): Collects data from mailing lists.
+- [travisSHARK](https://github.com/smartshark/travisSHARK): Collects data from [Travis CI].
+- [refSHARK](https://github.com/smartshark/refSHARK): Analyzes Java source code to determine refactorings.
+- [labelSHARK](https://github.com/smartshark/labelSHARK): Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes. 
+- [mynbouSHARK](https://github.com/smartshark/mynbouSHARK): Creates defect prediction data sets a release of a software version. 
+- [identitySHARK](https://github.com/smartshark/identitySHARK): Identifies and merges different identities of the same person, e.g., in the issue tracking system and the version control system.
+- [memeSHARK](https://github.com/smartshark/memeSHARK): Compresses stored code entity states without losing information by removing states that did not change in commits. 
 
 [serverSHARK]: https://github.com/smartshark/servershark
 [vcsSHARK]: https://github.com/smartshark/vcsshark
