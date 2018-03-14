@@ -31,17 +31,17 @@ Additionally, we have one Java plugin, the [refSHARK].
 
 The following plugins are currently available.
 
-- [VCSShark]: This plugin extracts data from version control systems, e.g., git.
-- [MecoSHARK]: Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
-- [CoastSHARK]: This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
-- [IssueSHARK]: Collects data from issue tracking systems, e.g., Jira, Bugzilla, and GitHub issues.
-- [MailingSHARK]: Collects data from mailing lists.
-- [TravisSHARK]: Collects data from [Travis CI].
-- [RefSHARK]: Analyzes Java source code to determine refactorings.
-- [LabelSHARK]: Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes. 
-- [MynbouSHARK]: Creates defect prediction data sets a release of a software version. 
-- [IdentitySHARK]: Identifies and merges different identities of the same person, e.g., in the issue tracking system and the version control system.
-- [MemeSHARK]: Compresses stored code entity states without losing information by removing states that did not change in commits. 
+- [vcsSHARK]: This plugin extracts data from version control systems, e.g., git.
+- [mecoSHARK]: Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
+- [coastSHARK]: This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
+- [issueSHARK]: Collects data from issue tracking systems, e.g., Jira, Bugzilla, and GitHub issues.
+- [mailingshark]: Collects data from mailing lists.
+- [travisshark]: Collects data from [Travis CI].
+- [refshark]: Analyzes Java source code to determine refactorings.
+- [labelshark]: Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes. 
+- [mynboushark]: Creates defect prediction data sets a release of a software version. 
+- [identityshark]: Identifies and merges different identities of the same person, e.g., in the issue tracking system and the version control system.
+- [memeSHARK]: Compresses stored code entity states without losing information by removing states that did not change in commits. 
 
 [serverSHARK]: https://github.com/smartshark/servershark
 [vcsSHARK]: https://github.com/smartshark/vcsshark
