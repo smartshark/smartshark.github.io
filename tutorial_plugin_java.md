@@ -139,22 +139,22 @@ Additional information can be found in the documentation of gradle [here](https:
 
 ## Files
 In this section, we will provide detailed information about any file of the minimal working example. 
-### .travis.yml
+* .travis.yml
 File for the Travis-Build System. 
-### JmweSHARK.java
+* JmweSHARK.java
 The Java main class of the plugin. The main method is automatically called by execution of the plugin.
-### build.gradle
-Additional information about the build.gradle file can be found in the documentation from gradle [here](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html).
-### build_plugin.sh
-Script for creating a zip archive file of the plugin that is able to upload to the ServerSHARK. 
-### execute.sh
-The plugin is execution starts with this script file. You may add here some additional parameters for your plugin.
-### info.json
-Contains important meta information about the plugin. This file is readed by the ServerSHARK to ensure that the requirements to execute the plugin are given. 
-### install.sh
+* build.gradle
+The gradle build file for the project; additional information about the build.gradle file can be found in the documentation from gradle [here](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html).
+* build_plugin.sh
+Script for creating a zip archive file of the plugin that is able to upload to the [ServerSHARK](https://github.com/smartshark/serverSHARK). 
+* execute.sh
+The plugin is executed with this script file. You may add here some additional parameters for your plugin.
+* info.json
+Contains important meta information about the plugin. This file is readed by the [ServerSHARK](https://github.com/smartshark/serverSHARK) to ensure that the requirements to execute the plugin are given. 
+* install.sh
 Install-Script: Usually, you do not need to change anything here. 
-### schema.json
-Contains any information about database changes that are possible while executing this plugin.
+* schema.json
+Contains information about collections and fileds that may be modified in the database by this plugin.
 
 
 
