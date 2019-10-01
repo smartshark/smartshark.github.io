@@ -5,39 +5,46 @@ permalink: /plugin/tutorial/java
 ---
 
 # How to create a plugin for SmartSHARK
-This tutorial explains how to create a java plugin for SmartSHARK. This short readme is a tutorial on how to program a plugin starting from the ground. The first section will provide you with the basic information. More advanced information will be outlined for each file in the files section.
+This tutorial explains how to create a Java plugin for SmartSHARK. This short readme is a tutorial on how to program a plugin starting from the ground. The first section will provide you with the basic information. More advanced information will be outlined for each file in the files section.
 
 ## Get started
-1. Modify the content of the setup.py and the info.json with your information
-2. Create a new folder, with the name of the plugin
-3. This folder is your workspace. Add any java files here.
-4. The main.py contains the main method and start point of the plugin. It automatically setups some logging parameters and start the timing of the execution. 
-5. Parse additional parameter and start your plugin
-## Parameter
+1. Modify the content of the build.gradle (for dependencies) and the plugin_packaging/info.json with your information
+2. Rename the source package of your Java application to pluginnameSHARK
+3. The JmweShark.java is the main application of the Java plugin. It contains the Java main method and is therefore the start point. 
+4. In the example Java class, is some code to parse additional arguments (command line parameters) and setup the logging, the database connection and time measurements. 
+## Command Line Parameters
 ### Get a parameter
 All parameters are automatically parsed in the main method.
 Example:
-
+```
       Parameter param = Parameter.getInstance();
 	  param.init(args);
-
- ### Add a parameter
+```
+### Add a parameter
  To add a parameter follow these steps:
  1. Add the parameter to the info.json
  2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional (Be careful that you have the same position as in your info.json)
- 3. Read your parameter in the java main method
- ## Database
- ### Create a database connection
-It is possible to create a database connection with morphia library. The following code creates an uri from the connection arguments and connects to the database.
-
+ 3. Read your parameter in the Java main method
+## Reading and Writing Data
+### Create a database connection
+It is possible to create a database connection with [morphia](https://github.com/MorphiaOrg/morphia) library. The following code creates an uri from the connection arguments and connects to the database.
+```
     datastore = morphia.createDatastore(
 						new MongoClient(Parameter.getInstance().getDbHostname(), Parameter.getInstance().getDbPort()),
 						Parameter.getInstance().getDbName());
-
- ### Modify the database
+```
+### Reading data 
+You are able to read data from the database with an active database connection. Just use the [morphia](https://github.com/MorphiaOrg/morphia) syntax. For example:
+```
+    Query<Project> projects = datastore.createQuery(Project.class);
+    for (Project project : projects) {
+	    System.out.println(project.getName());
+	}
+```
+### Writing data
  You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
  Example:
- 
+ ```
 
         {
         
@@ -117,12 +124,14 @@ It is possible to create a database connection with morphia library. The followi
     "collection_name": "file_action"
     
     }
+	```
 
- ## Build and Installation
- Execute the following commands to build the plugin and create an archive for uploading to the SmartShark Server.
- 
+## Build and Installation
+Execute the following commands to build the plugin and create an archive for uploading to the [ServerSHARK](https://github.com/smartshark/serverSHARK) Server.
+  ```
     ./gradlew build
     ./plugin-packaging/build_plugin.sh
+```
 
 ## Add external libraries
 You are able to add any external library to the build.gradle file in the root folder.
@@ -133,7 +142,7 @@ In this section, we will provide detailed information about any file of the mini
 ### .travis.yml
 File for the Travis-Build System. 
 ### JmweSHARK.java
-The java main class of the plugin. The main method is automatically called by execution of the plugin.
+The Java main class of the plugin. The main method is automatically called by execution of the plugin.
 ### build.gradle
 Additional information about the build.gradle file can be found in the documentation from gradle [here](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html).
 ### build_plugin.sh
