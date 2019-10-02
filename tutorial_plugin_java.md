@@ -146,7 +146,7 @@ The Java main class of the plugin. The main method is automatically called by ex
 * build.gradle
 The gradle build file for the project; additional information about the build.gradle file can be found in the documentation from gradle [here](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html).
 * build_plugin.sh
-Script for creating a zip archive file of the plugin that is able to upload to the [ServerSHARK](https://github.com/smartshark/serverSHARK). 
+Script for creating a zip archive file of the plugin that can be used by the [ServerSHARK](https://github.com/smartshark/serverSHARK). 
 * execute.sh
 The plugin is executed with this script file. You may add here some additional parameters for your plugin.
 * info.json
