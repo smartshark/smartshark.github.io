@@ -29,19 +29,27 @@ Additionally, we have one Java plugin, the [refSHARK].
 
 ## Currently available plugins for data collection or analysis
 
-The following plugins are currently available.
-
+Plugins that scrape data from repositories:
 - [vcsSHARK](https://github.com/smartshark/vcsSHARK): This plugin extracts data from version control systems, e.g., git.
-- [mecoSHARK](https://github.com/smartshark/mecoSHARK): Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
-- [coastSHARK](https://github.com/smartshark/coastSHARK): This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
 - [issueSHARK](https://github.com/smartshark/issueSHARK): Collects data from issue tracking systems, e.g., Jira, Bugzilla, and GitHub issues.
 - [mailingSHARK](https://github.com/smartshark/mailingSHARK): Collects data from mailing lists.
 - [travisSHARK](https://github.com/smartshark/travisSHARK): Collects data from [Travis CI].
+
+Plugins that analyze source code:
+- [mecoSHARK](https://github.com/smartshark/mecoSHARK): Collects software metrics for Java, Phython, C, and C++ projects using [sourcemeter].
+- [coastSHARK](https://github.com/smartshark/coastSHARK): This plugin parses python (via pythons builtin [ast]) and java (via [javalang]) and extracts a bag-of-words vector of the AST node types. The CoastSHARK also extracts every import from every file.
 - [refSHARK](https://github.com/smartshark/refSHARK): Analyzes Java source code to determine refactorings.
-- [labelSHARK](https://github.com/smartshark/labelSHARK): Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes. 
-- [mynbouSHARK](https://github.com/smartshark/mynbouSHARK): Creates defect prediction data sets a release of a software version. 
+- [changeSHARK](https://github.com/smartshark/changeSHARK): Analyzes changes to Java files in commits and classifies them according to their change type. 
+
+Plugins that enhance existing data with heursitics:
+- [linkSHARK](https://github.com/smartshark/linkSHARK): Determines links between commits and issues.
+- [labelSHARK](https://github.com/smartshark/labelSHARK): Assigns labels (e.g., bugfix, refactoring, documentation) to commits based on the commit message, issue tracking data, and source code changes.
+- [inducingSHARK](https://github.com/smartshark/inducingSHARK): Determines inducing changes for bug fixes.
 - [identitySHARK](https://github.com/smartshark/identitySHARK): Identifies and merges different identities of the same person, e.g., in the issue tracking system and the version control system.
-- [memeSHARK](https://github.com/smartshark/memeSHARK): Compresses stored code entity states without losing information by removing states that did not change in commits. 
+
+Other plugins and tools:
+- [memeSHARK](https://github.com/smartshark/memeSHARK): Compresses stored code entity states without losing information by removing states that did not change in commits.
+- [mynbou](https://github.com/smartshark/mynbou): Creates defect prediction data sets a release of a software version. 
 
 [serverSHARK]: https://github.com/smartshark/servershark
 [vcsSHARK]: https://github.com/smartshark/vcsshark
