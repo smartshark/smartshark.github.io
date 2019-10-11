@@ -5,7 +5,7 @@ permalink: /plugin/tutorial/java
 ---
 
 # How to create a plugin for SmartSHARK
-This tutorial explains how to create a Java plugin for SmartSHARK. This short readme is a tutorial on how to program a plugin starting from the ground. The first section will provide you with the basic information. More advanced information will be outlined for each file in the files section.
+This tutorial explains how to create a Java plugin for SmartSHARK. We explain how you can create a simple plugin for SmartSHARK using the minimal working example [jmweSHARK](https://github.com/smartshark/jmweSHARK). The first section will provide you with the basic information. More advanced information will be outlined for each file in the files section.
 
 ## Get started
 1. Modify the content of the build.gradle (for dependencies) and the plugin_packaging/info.json with your information
@@ -17,29 +17,28 @@ This tutorial explains how to create a Java plugin for SmartSHARK. This short re
 All parameters are automatically parsed in the main method.
 Example:
 ```
-      Parameter param = Parameter.getInstance();
-	  param.init(args);
+Parameter param = Parameter.getInstance();
+param.init(args);
 ```
 ### Add a parameter
  To add a parameter follow these steps:
  1. Add the parameter to the info.json
- 2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional (Be careful that you have the same position as in your info.json)
+ 2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional. Be careful that you have the same position as in your info.json.
  3. Read your parameter in the Java main method
 ## Reading and Writing Data
 ### Create a database connection
 It is possible to create a database connection with [morphia](https://github.com/MorphiaOrg/morphia) library. The following code creates an uri from the connection arguments and connects to the database.
 ```
-    datastore = morphia.createDatastore(
-						new MongoClient(Parameter.getInstance().getDbHostname(), Parameter.getInstance().getDbPort()),
-						Parameter.getInstance().getDbName());
+client = new MongoClient(Parameter.getInstance().getDbHostname(), Parameter.getInstance().getDbPort());
+datastore = morphia.createDatastore(client,Parameter.getInstance().getDbName());
 ```
 ### Reading data 
 You are able to read data from the database with an active database connection. Just use the [morphia](https://github.com/MorphiaOrg/morphia) syntax. For example:
 ```
-    Query<Project> projects = datastore.createQuery(Project.class);
-    for (Project project : projects) {
-	    System.out.println(project.getName());
-	}
+Query<Project> projects = datastore.createQuery(Project.class);
+for (Project project : projects) {
+  System.out.println(project.getName());
+}
 ```
 ### Writing data
  You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
@@ -124,13 +123,13 @@ You are able to read data from the database with an active database connection. 
     "collection_name": "file_action"
     
     }
-	```
+```
 
 ## Build and Installation
 Execute the following commands to build the plugin and create an archive for uploading to the [ServerSHARK](https://github.com/smartshark/serverSHARK) Server.
-  ```
-    ./gradlew build
-    ./plugin-packaging/build_plugin.sh
+```
+./gradlew build
+./plugin-packaging/build_plugin.sh
 ```
 
 ## Add external libraries
