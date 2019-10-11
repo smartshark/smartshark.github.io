@@ -43,86 +43,47 @@ for (Project project : projects) {
 ### Writing data
  You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
  Example:
- ```
-
-        {
-        
-    "fields": [ 
-    {
-    
-    "type": "ObjectIdType",
-    
-    "logical_type": "OID",
-    
-    "field_name": "_id",
-    
-    "desc": "Identifier of the document."
-    
-    },
-    
-    {
-    
-    "sub_type": "StructType",
-    
-    "type": "ArrayType",
-    
-    "field_name": "induces",
-    
-    "logical_type": "List",
-    
-    "desc": "List of file actions this file action induces.",
-    
-    "fields": [
-    
-    {
-    
-    "desc": "Reference to the file action this file action induces.",
-    
-    "field_name": "change_file_action_id",
-    
-    "logical_type": "RID",
-    
-    "reference_to": "file_action",
-    
-    "type": "ObjectIdType"
-    
-    },
-    
-    {
-    
-    "type": "StringType",
-    
-    "logical_type": "Name",
-    
-    "field_name": "szz_type",
-    
-    "desc": "SZZ type for this inducing file action as per the original algorithm (weak_suspect, hard_suspect, partial_fix, inducing)"
-    
-    },
-    
-    {
-    
-    "type": "StringType",
-    
-    "logical_type": "Name",
-    
-    "field_name": "label",
-    
-    "desc": "SmartSHARK label for this inducing file action."
-    
-    }
-    
-    ]
-    
-    }
-    
-    ],
-    
-    "desc": "",
-    
-    "collection_name": "file_action"
-    
-    }
+```
+{
+   "fields":[
+      {
+         "type":"ObjectIdType",
+         "logical_type":"OID",
+         "field_name":"_id",
+         "desc":"Identifier of the document."
+      },
+      {
+         "sub_type":"StructType",
+         "type":"ArrayType",
+         "field_name":"induces",
+         "logical_type":"List",
+         "desc":"List of file actions this file action induces.",
+         "fields":[
+            {
+               "desc":"Reference to the file action this file action induces.",
+               "field_name":"change_file_action_id",
+               "logical_type":"RID",
+               "reference_to":"file_action",
+               "type":"ObjectIdType"
+            },
+            {
+               "type":"StringType",
+               "logical_type":"Name",
+               "field_name":"szz_type",
+               "desc":"SZZ type for this inducing file action as per the original algorithm (weak_suspect, hard_suspect, partial_fix, inducing)"
+            },
+            {
+               "type":"StringType",
+               "logical_type":"Name",
+               "field_name":"label",
+               "desc":"SmartSHARK label for this inducing file action."
+            }
+         ]
+      }
+   ],
+   "desc":"",
+   "collection_name":"file_action"
+}
 ```
 
 ## Build and Installation
