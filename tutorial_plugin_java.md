@@ -21,10 +21,10 @@ Parameter param = Parameter.getInstance();
 param.init(args);
 ```
 ### Add a parameter
- To add a parameter follow these steps:
- 1. Add the parameter to the info.json
- 2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional. Be careful that you have the same position as in your info.json.
- 3. Read your parameter in the Java main method
+To add a parameter follow these steps:
+1. Add the parameter to the info.json
+2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional. Be careful that you have the same position as in your info.json.
+3. Read your parameter in the Java main method
 ## Reading and Writing Data
 ### Create a database connection
 It is possible to create a database connection with [morphia](https://github.com/MorphiaOrg/morphia) library. The following code creates an uri from the connection arguments and connects to the database.
@@ -41,8 +41,8 @@ for (Project project : projects) {
 }
 ```
 ### Writing data
- You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
- Example:
+You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
+Example:
 ```
 {
    "fields":[
