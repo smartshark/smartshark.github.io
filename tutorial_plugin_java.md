@@ -1,6 +1,6 @@
 ﻿---
 layout: page
-title: Tutorial Plugin Java
+title: Tutorial for Java Plugins
 permalink: /plugin/tutorial/java
 ---
 
