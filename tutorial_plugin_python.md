@@ -1,6 +1,6 @@
 ﻿---
 layout: page
-title: Tutorial Plugin Python
+title: Tutorial for Python Plugins
 permalink: /plugin/tutorial/python
 ---
 
