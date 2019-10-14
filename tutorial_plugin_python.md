@@ -13,7 +13,9 @@ This tutorial explains how to create a python plugin for SmartSHARK. We explain 
 3. This folder is your workspace. Add any python files here.
 4. The main.py contains the main method and start point of the plugin. It automatically setups some logging parameters and start the timing of the execution. 
 5. Parse additional parameters and start your plugin
+
 ## Command Line Parameters
+
 ### Get a parameter
 All parameters are automatically parsed in the main.py routine. 
 Example:
@@ -29,18 +31,22 @@ To add a parameter follow these steps:
 2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional. Be careful that you have the same position as in your info.json.
 3. Add the parameter to the parser in the main.py
 4. Read your parameter in the main.py
+
 ## Reading and Writing Data
+
 ### Create a database connection
 It is possible to create a database connection with [mongoengine](http://mongoengine.org/) library. The following code creates an uri from the connection arguments and connects to the database.
 ```
 uri = create_mongodb_uri_string(user, password, host, port, authentication, ssl)
 connect(database, host=uri)
 ```
+
 ### Reading Data
 You are able to read data from the database with an active database connection. Just use the [mongoengine](http://mongoengine.org/)  syntax. For example:
 ```
 project_id = Project.objects.get(name=self.args.project_name).id
 ```
+
 ### Writing Data
 You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
 Example:
@@ -101,6 +107,7 @@ install_requires=['pycoshark>=1.0.28', 'pygit2==0.26.2', 'networkx>=2.2'],
 ```
 
 Additional information can be found in the documentation of python [here](https://docs.python.org/3.7/distutils/setupscript.html).
+
 # Files
 In this section, we will provide detailed information about any file of the minimal working example. 
 * .travis.yml
