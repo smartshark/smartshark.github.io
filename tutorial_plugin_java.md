@@ -11,8 +11,10 @@ This tutorial explains how to create a Java plugin for SmartSHARK. We explain ho
 1. Modify the content of the build.gradle (for dependencies) and the plugin_packaging/info.json with your information
 2. Rename the source package of your Java application to pluginnameSHARK
 3. The JmweShark.java is the main application of the Java plugin. It contains the Java main method and is therefore the start point. 
-4. In the example Java class, is some code to parse additional arguments (command line parameters) and setup the logging, the database connection and time measurements. 
+4. In the example Java class, is some code to parse additional arguments (command line parameters) and setup the logging, the database connection and time measurements.
+
 ## Command Line Parameters
+
 ### Get a parameter
 All parameters are automatically parsed in the main method.
 Example:
@@ -25,13 +27,16 @@ To add a parameter follow these steps:
 1. Add the parameter to the info.json
 2. Add the parameter to the execute.sh in the plugin_packaging folder. Add the parameter to COMMAND and decide, if the parameter is optional. Be careful that you have the same position as in your info.json.
 3. Read your parameter in the Java main method
+
 ## Reading and Writing Data
+
 ### Create a database connection
 It is possible to create a database connection with [morphia](https://github.com/MorphiaOrg/morphia) library. The following code creates an uri from the connection arguments and connects to the database.
 ```
 client = new MongoClient(Parameter.getInstance().getDbHostname(), Parameter.getInstance().getDbPort());
 datastore = morphia.createDatastore(client,Parameter.getInstance().getDbName());
 ```
+
 ### Reading data 
 You are able to read data from the database with an active database connection. Just use the [morphia](https://github.com/MorphiaOrg/morphia) syntax. For example:
 ```
@@ -40,6 +45,7 @@ for (Project project : projects) {
   System.out.println(project.getName());
 }
 ```
+
 ### Writing data
 You are able to modify the database with an active database connection. Any added or modified collection should be stated in the schema.json.
 Example:
