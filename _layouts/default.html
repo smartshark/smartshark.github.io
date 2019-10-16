@@ -15,9 +15,11 @@
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ site.description }}</h2>
       {% for page in site.pages %}
-        {% if page.title %}
-          <a class="btn" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-        {% endif %}
+        {% unless page.exclude %}
+          {% if page.title %}
+            <a class="btn" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {% endif %}
+        {% endunless %}
       {% endfor %}
     </section>
 
