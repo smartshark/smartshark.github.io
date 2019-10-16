@@ -15,7 +15,7 @@ To report bugs of request new features, please follow these guidelines.
 ## Creating Plugins
 
 If you are interested in creating new plugin for SmartSHARK, you may work through our the tutorials and use our minimal working examples.
-- [Tutorial]() and [minimal working example]() for Python.
-- [Tutorial]() and [minimal working example]() for Java.
+- [Tutorial](tutorial_plugin_python.md) and [minimal working example](https://github.com/smartshark/pymweSHARK) for Python.
+- [Tutorial](tutorial_plugin_java.md) and [minimal working example](https://github.com/smartshark/jmweSHARK) for Java.
 
 You can also just look at the code of the [existing plugins](plugins.md) and adopt them as required for your purposes.
