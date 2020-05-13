@@ -22,7 +22,9 @@ Below you find a (possibly incomplete) list of the publications using SmartSHARK
 
 ## Conferences
 
-- [Alexander Trautsch: Effects of Automated Static Analysis Tools: A Multidimensional View on Quality Evolution, Proceedings of the 41st International Conference on Software Engineering (ICSE): Companion Proceedings, 2019 (PhD symposium](https://doi.org/10.1109/ICSE-Companion.2019.00075)
+- Steffen Herbold, Alexander Trautsch, Benjamin Ledel: Large-Scale Manual Validation of Bugfixing Changes, Proceedings of the 17th International Conference on Mining Software Repositories (MSR), 2020 (Registered Reports) - [OSF Registration](https://osf.io/acnwk)
+- Alexander Trautsch, Fabian Trautsch, Steffen Herbold, Benjamin Ledel, Jens Grabowski: The SmartSHARK Ecosystem for Software Repository Mining, Proceedings of the 42nd International Conference on Software Engineering (ICSE), 2020 (Demonstrations Track) - [Preprint](https://arxiv.org/abs/2001.01606)
+- [Alexander Trautsch: Effects of Automated Static Analysis Tools: A Multidimensional View on Quality Evolution, Proceedings of the 41st International Conference on Software Engineering (ICSE): Companion Proceedings, 2019 (PhD symposium)](https://doi.org/10.1109/ICSE-Companion.2019.00075)
 - [Fabian Trautsch, Jens Grabowski: Are there any Unit Tests? An Empirical Study on Unit Testing in Open Source Python Projects, Proceedings of the 10th International Conference on Software Testing, Verification and Validation (ICST), 2017](https://doi.org/10.1109/ICST.2017.26)
 - [Fabian Trautsch, Reflecting the Adoption of Software Testing Research in Open-Source Projects, Proceedings of the 10th International Conference on Software Testing, Verification and Validation (ICST), 2017 (PhD symposium)](https://doi.org/10.1109/ICST.2017.77)
 - [Fabian Trautsch, Steffen Herbold, Philip Makedonski, Jens Grabowski: Addressing Problems with External Validity of Repository Mining Studies Through a Smart Data Platform, Proceedings of the 13th International Conference on Mining Software Repositories (MSR), 2016](https://doi.org/10.1145/2901739.2901753)
