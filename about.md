@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/69ongpoBtQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/69ongpoBtQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Researchers of various research areas (e.g., defect prediction, sentiment mining, developer social networks) analyze software projects to develop new ideas or validate their assumptions about software development processes. Such research consists of two fundamental steps: 
  
