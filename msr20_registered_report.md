@@ -1,3 +1,9 @@
+---
+layout: page
+title: MSR2020 Registered Report
+permalink: /msr20_registered_report/
+---
+
 Thank you for your interest in the participation in our study on the manual labeling
 of bug fixing lines that is registered with the OSF (https://osf.io/acnwk) and part
 of the MSR 2020 registered reports track. 
