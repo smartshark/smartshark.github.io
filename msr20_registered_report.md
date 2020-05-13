@@ -1,5 +1,6 @@
 Thank you for your interest in the participation in our study on the manual labeling
-of bug fixing lines that is registered with the OSF (https://osf.io/acnwk). 
+of bug fixing lines that is registered with the OSF (https://osf.io/acnwk) and part
+of the MSR 2020 registered reports track. 
 
 Our goal is to provide a large corpus of bug fixing commits, where we know for each
 changed line whether it contributed to the bugfix or not. You can watch this short
