@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+{% include youtube.html id=69ongpoBtQg %}
+
 Researchers of various research areas (e.g., defect prediction, sentiment mining, developer social networks) analyze software projects to develop new ideas or validate their assumptions about software development processes. Such research consists of two fundamental steps: 
  
 1. the collection of project data, including pre-processing steps, the synthesis of intermediate results and; 
