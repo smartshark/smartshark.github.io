@@ -12,6 +12,8 @@ Our goal is to provide a large corpus of bug fixing commits, where we know for e
 changed line whether it contributed to the bugfix or not. You can watch this short
 video on YouTube to see how the validation works. 
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/VWvDlq4lQC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 If you are interested in participating, please first read the registration protocol 
 at the OS. If you contribute manual validations for at least 200 commits, you can
 become a co-author of the resulting manuscript, which already as an In Principle
