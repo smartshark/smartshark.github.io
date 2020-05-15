@@ -56,7 +56,7 @@ The pseudonym will become part of the publicly shared data set. If you select th
 pseudonym such that it may be used to identify yourself (e.g., sherbold), we
 see this as consent for sharing this pseudonym publicly within the data set as described above. 
 In case you do not provide a pseudonym, we will generate a random pseudonym for you which 
-will provide provide you anonymity in the data set. We note that it may be possible to
+will provide you anonymity in the data set. We note that it may be possible to
 de-anonymize the pseudonyms in case you become a co-author of the manuscript, because 
 the author order depends on the labeled data. 
 
