@@ -21,9 +21,8 @@ Acceptance (IPA) for publication in the
 [Empirical Software Engineering](https://www.springer.com/journal/10664) journal. 
 
 
-Please
-fill in the following form and send it via Email to herbold@cs.uni-goettingen.de. We
-will than contact you with all information regarding how to proceed. 
+Please fill in the following form and send it via Email to herbold@cs.uni-goettingen.de.
+We will than contact you with all information regarding how to proceed. 
 
 ```
 Registration Form
@@ -67,3 +66,7 @@ credentials for the data labeling platform. Steffen Herbold may also contact you
 Email address with information relevant for the study, e.g., the current progress, or in case
 you meet the criteria for authorship and are invited to contribute to the manuscript. 
 ```
+
+**Deviations from the Registration:**
+
+- The timeframe of the public labeling period is changed to May 18th-September 31st due to the move of MSR, ICSE, and the ongoing pandemic. 
