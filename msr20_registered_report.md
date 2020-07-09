@@ -22,7 +22,8 @@ Acceptance (IPA) for publication in the
 
 
 Please fill in the following form and send it via Email to herbold@cs.uni-goettingen.de.
-We will than contact you with all information regarding how to proceed. 
+We need the full form including the consent statement and the information regarding data
+privacy due to the GDPR. We will than contact you with all information regarding how to proceed. 
 
 ```
 Registration Form
