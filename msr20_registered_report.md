@@ -71,3 +71,21 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 **Deviations from the Registration:**
 
 - The timeframe of the public labeling period is changed to May 18th-September 31st due to the move of MSR, ICSE, and the ongoing pandemic. 
+
+**FAQ**
+
+**Q:** In the tutorial video, you simple label all lines in a test file as test. What if there are documentation lines or whitespaces in such files. Should we label this or is simply labeling everything as test sufficient?
+
+**A:** Simply labeling everything as test is sufficient, because our focus is on bug fixes. For this data, recognizing that a file is part of the tests is important, now whether the lines are whitespaces or documentations. We will count all lines in test files positively for your consensus, unless there is strong reason not to, e.g., because you labelled the test changes as bugfix. 
+
+**Q:** For some issues, I only see changes to tests. The discussion says that the bug was already fixed earlier and that only tests were added to confirm this. What should I do?
+
+**A:** This is okay, just label the tests and tests and you have an easy commit. The issue is correctly labeled as bug, because the bug was in the software in the prior release. The link is also correct, because the developers confirmed that the bug was fixed. There just is nothing to fix anymore. You also do not have to search for the actual bug fixing commit. This will actually lead to interesting data. 
+
+**Q:** What if a line contributes both to the bugfix and contains an unrelated improvement or comment?
+
+**A:** You should label the line as bugfix, because this is the more important label. Labeling on the character level is out of scope of our study. While this may mean there there is some noise in our data, this noise should be very low and also irrelavant for many applications. 
+
+**Q:** Why can I not skip issues, e.g., if I find them too difficult?
+
+**A:** Because this would lead to multiple problems and is not allowed according to our registered study design, that states that the commits we are showing you are randomly sampled from the project you selected. We decided for this for two reasons. First, skipping issues could reduce the validity of the results for our second research question, i.e., how good we actually are at labeling bugfixes at this level of granularity, because the sample could be skewed towards simpler bugfixes. Second, this could lead to cherry picking, i.e., participants who skip commits until they find particularly easy commits. This would be unfair for the other participants. 
