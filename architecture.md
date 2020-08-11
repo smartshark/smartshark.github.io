@@ -24,4 +24,4 @@ In its normal mode it runs jobs on an HPC cluster but it also supports local exe
 
 ## Database
 
-<img src="/assets/database_design.png" />
+<img src="/assets/database_design2.png" />
