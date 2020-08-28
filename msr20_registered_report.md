@@ -89,3 +89,8 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 **Q:** Why can I not skip issues, e.g., if I find them too difficult?
 
 **A:** Because this would lead to multiple problems and is not allowed according to our registered study design, that states that the commits we are showing you are randomly sampled from the project you selected. We decided for this for two reasons. First, skipping issues could reduce the validity of the results for our second research question, i.e., how good we actually are at labeling bugfixes at this level of granularity, because the sample could be skewed towards simpler bugfixes. Second, this could lead to cherry picking, i.e., participants who skip commits until they find particularly easy commits. This would be unfair for the other participants. 
+
+**Known Issues with the Data:**
+
+- The commit 1f62431ebcbc1fb9654151c999349bf0204c465c is unrelated to the issue VALIDATOR-276, even though this is explicitly linked through the commit message.
+- The commit e883181ff49d3fa76853e88d4eae1633e0cc383d is unrelated to the issue LANG-100. This was a false positive for SZZ that was not corrected through our manual validation.
