@@ -90,6 +90,10 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 
 **A:** Because this would lead to multiple problems and is not allowed according to our registered study design, that states that the commits we are showing you are randomly sampled from the project you selected. We decided for this for two reasons. First, skipping issues could reduce the validity of the results for our second research question, i.e., how good we actually are at labeling bugfixes at this level of granularity, because the sample could be skewed towards simpler bugfixes. Second, this could lead to cherry picking, i.e., participants who skip commits until they find particularly easy commits. This would be unfair for the other participants. 
 
+**Q:** Help! I am stuck labelling because the editor does not allow me to mark all files. What can I do?
+
+**A:** Nobody is perfect, and our system is certainly not perfect as well. Please contact us via Email, or create a GitHub issue with the description. We are currently aware of one very annoying issue that seems to affect very few commits, but was now reported twice. In case only the last line of a file was deleted, but not the second to last line, it can happen that this line cannot be marked and labelled. If all lines from the file are, e.g., unrelated, test, or bugfix, this is not a big issues: you can use the buttons on top of the file to assign the same labels to all lines. If you need multiple labels for the file, please contact us. 
+
 **Known Issues with the Data:**
 
 - The commit 1f62431ebcbc1fb9654151c999349bf0204c465c is unrelated to the issue VALIDATOR-276, even though this is explicitly linked through the commit message.
