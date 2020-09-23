@@ -16,7 +16,7 @@ video on YouTube to see how the validation works.
 
 If you are interested in participating, please first read the [registration protocol 
 at the OSF](https://osf.io/acnwk). If you contribute manual validations for at least 200 commits, you can
-become a co-author of the resulting manuscript, which already as an In Principle
+become a co-author of the resulting that we will submit and which already as an In Principle
 Acceptance (IPA) for publication in the
 [Empirical Software Engineering](https://www.springer.com/journal/10664) journal. 
 
@@ -24,6 +24,8 @@ Acceptance (IPA) for publication in the
 Please fill in the following form and send it via Email to herbold@cs.uni-goettingen.de.
 We need the full form including the consent statement and the information regarding data
 privacy due to the GDPR. We will than contact you with all information regarding how to proceed. 
+Please note that anyone who was directly involved in the decision about IPA may not become a co-author,
+due to ethical reasons. 
 
 ```
 Registration Form
