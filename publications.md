@@ -17,6 +17,9 @@ Below you find a (possibly incomplete) list of the publications using SmartSHARK
 
 ## Journals
 
+- [Steffen Herbold, Alexander Trautsch, Fabian Trautsch: On the Feasibility of Automated Issue Type Prediction, Empirical Software Engineering, Springer, 2020](https://doi.org/10.1007/s10664-020-09885-w)
+- [Alexander Trautsch, Steffen Herbold, Jens Grabowski: A Longitudinal Study of Static Analysis Warning Evolution and the Effects of PMD on Software Quality in Apache Open Source Projects, Empirical Software Engineering, Springer, 2020](https://doi.org/10.1007/s10664-020-09880-1)
+- [Steffen Herbold: On the cost and profit of software defect prediction, IEEE Transactions on Software Engineering](https://doi.org/10.1109/TSE.2019.2957794)
 - [Fabian Trautsch, Steffen Herbold, Jens Grabowski: Are Unit and Integration Test Definitions Still Valid for Modern Java Projects? An Empirical Study on Open-Source Projects, Journal of Systems and Software, Elsevier, 2019](https://doi.org/10.1016/j.jss.2019.110421)
 - [Fabian Trautsch, Steffen Herbold, Philip Makedonski, Jens Grabowski: Addressing problems with replicability and validity of repository mining studies through a smart data platform, Empirical Software Engineering, Springer, 2017](https://doi.org/10.1007/s10664-017-9537-x)
 
@@ -29,17 +32,3 @@ Below you find a (possibly incomplete) list of the publications using SmartSHARK
 - [Fabian Trautsch, Jens Grabowski: Are there any Unit Tests? An Empirical Study on Unit Testing in Open Source Python Projects, Proceedings of the 10th International Conference on Software Testing, Verification and Validation (ICST), 2017](https://doi.org/10.1109/ICST.2017.26)
 - [Fabian Trautsch, Reflecting the Adoption of Software Testing Research in Open-Source Projects, Proceedings of the 10th International Conference on Software Testing, Verification and Validation (ICST), 2017 (PhD symposium)](https://doi.org/10.1109/ICST.2017.77)
 - [Fabian Trautsch, Steffen Herbold, Philip Makedonski, Jens Grabowski: Addressing Problems with External Validity of Repository Mining Studies Through a Smart Data Platform, Proceedings of the 13th International Conference on Mining Software Repositories (MSR), 2016](https://doi.org/10.1145/2901739.2901753)
-
-## Theses
-
-- Fabian Trautsch: An Analysis of the Differences between Unit and Integration Tests, PhD Thesis, 2019
-- Verena Herbold: Mining Developer Dynamics for Agent-Based Simulation of Software Evolution, PhD Thesis, 2019
-- Aynur Amirfallah: Developer social network analysis by combining multiple information sources into a single aggregated network, M.Sc. Thesis, 2019
-- Jonathan Decker: Exploring the Relationship between Sentiment in Commit Messages and Development Activities, B.Sc. Thesis, 2019
-- Alexander Trautsch: Assessment of the impact of abstract syntax tree metrics and software module types on defect prediction models, M.Sc. Thesis, 2017
-- Fabian Trautsch: A Platform for the Integration of Repository Mining and Software Analytics through Big Data Technologies, M.Sc. Thesis, 2015
-
-## Student projects
-
-- Atefeh Khajeh: An Identify Merge Algorithm using Spark, M.Sc. research project, 2017
-- Luqman Ul Khair: API & Library for Software Data Mining through Big Data Technologies, M.Sc. research project, 2017
