@@ -100,3 +100,8 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 
 - The commit 1f62431ebcbc1fb9654151c999349bf0204c465c is unrelated to the issue VALIDATOR-276, even though this is explicitly linked through the commit message.
 - The commit e883181ff49d3fa76853e88d4eae1633e0cc383d is unrelated to the issue LANG-100. This was a false positive for SZZ that was not corrected through our manual validation.
+- The issue TIKA-889 is not a bug and marked as Cannot Reproduce.
+- The issue NET-74 is not a bug because the problem is caught elsewhere. 
+- The fix for NET-270 is not in the commit that references the issue. The linked commit only documents the fix in the change log. The actual fix is in the parent commit (which nis not tangled). 
+- The issue MATH-832 is not a bug and was marked as invalid. 
+- The the issue DBCP-128 was fixed as a side effect of fixing DBCP-198. The commit that references DBCP-128 only adds tests to confirm this. 
