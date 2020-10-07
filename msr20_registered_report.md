@@ -72,7 +72,7 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 
 **Deviations from the Registration:**
 
-- The timeframe of the public labeling period is changed to May 18th-September 31st due to the move of MSR, ICSE, and the ongoing pandemic. 
+- The timeframe of the public labeling period is changed to May 18th-October 14th due to the move of MSR, ICSE, and the ongoing pandemic. Registrations were only possible until September 30th. 
 
 **FAQ**
 
