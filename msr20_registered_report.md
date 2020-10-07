@@ -105,3 +105,4 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 - The fix for NET-270 is not in the commit that references the issue. The linked commit only documents the fix in the change log. The actual fix is in the parent commit (which nis not tangled). 
 - The issue MATH-832 is not a bug and was marked as invalid. 
 - The the issue DBCP-128 was fixed as a side effect of fixing DBCP-198. The commit that references DBCP-128 only adds tests to confirm this. 
+- The commit c03da1c2113a09e06104aba58e7e99ece5950f64 is unrelated to the issue JSPWIKI-2, even though this is explicitly linked through the commit message.
