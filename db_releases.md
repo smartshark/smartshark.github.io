@@ -8,9 +8,11 @@ permalink: /dbreleases/
 
 As part of SmartSHARK, we have already collect large amount of data, that we already used in our publications. 
 Since we are still incrementally updating and improving our database, we decided to organize our usage of the database in release from here on out and try to include
-the releases we already used in publications. Each release comes with a description of the data, as well as the requirements for using the release (e.g., the MongoDB version). 
+the releases we already used in publications. An increase of the minor version means that more that for the existing projects was added. With major version we also always add more projects. 
 
-### Release 1
+## List of Releases
+
+### SmartSHARK MongoDB Release 1.0
 
 | Field | Value |
 |---|---|
@@ -20,3 +22,4 @@ the releases we already used in publications. Each release comes with a descript
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.2.7 |
 | jSHARK Version | 2.0.5 |
+| Citation | @Misc{Herbold2019,<br>  author        = {Steffen Herbold and Alexander Trautsch and Fabian Trautsch and Benjamin Ledel},<br>  title         = {Issues with SZZ: An empirical assessment of the state of practice of defect prediction data collection},<br>  year          = {2019},<br>  archiveprefix = {arXiv},<br>  eprint        = {1911.08938},<br>} |
