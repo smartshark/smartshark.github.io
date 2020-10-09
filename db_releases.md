@@ -16,7 +16,7 @@ the releases we already used in publications. An increase of the minor version m
 | Field | Value |
 |---|---|
 | Short description | This is the first major release of the SmartSHARK MongoDB and data for 38 Java Apache projects. For each project, the data contains the issue tracking data, mailing list data, and version control data, including software metrics, PMD warnings, change type analysis, automated refactoring detection, links between commits and issues, commit labels, and inducing changes. The type of the linked bug issues and the issue links of these data sets were manually validated. |
-| Download Link | https://doi.org/10.5281/zenodo.4071448 |
+| Download Link | [https://doi.org/10.5281/zenodo.4071448](https://doi.org/10.5281/zenodo.4071448) |
 | Size | Data Size: 172.9 Gigabyte<br>Backup Size: 36.2 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.2.7 |
