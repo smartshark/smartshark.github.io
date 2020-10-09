@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Developer Resources
+title: Data Releases
 permalink: /dbreleases/
 ---
 
-## Data Releases
 
 As part of SmartSHARK, we have already collect large amount of data, that we already used in our publications. 
 Since we are still incrementally updating and improving our database, we decided to organize our usage of the database in release from here on out and try to include
