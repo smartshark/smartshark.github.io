@@ -13,6 +13,18 @@ If you want to know how to use the releases, our [usage examples repository](htt
 
 ## List of Releases
 
+### SmartSHARK MongoDB Release 1.1
+
+| Field | Value |
+|---|---|
+| Short description | Release 1.1 updates release 1.0 with manually validated lines for bug fixing commits. |
+| Download Link | [https://doi.org/10.5281/zenodo.4095238](https://doi.org/10.5281/zenodo.4095238) |
+| Size | Data Size: 172.9 Gigabyte<br>Backup Size: 36.2 Gigabyte |
+| MongoDB Version | 4.0 |
+| PycoSHARK Version | 1.3.1 |
+| jSHARK Version | 2.0.5 |
+| Citation | Preprint available soon. |
+
 ### SmartSHARK MongoDB Release 1.0
 
 | Field | Value |
