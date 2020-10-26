@@ -106,3 +106,6 @@ you meet the criteria for authorship and are invited to contribute to the manusc
 - The issue MATH-832 is not a bug and was marked as invalid. 
 - The the issue DBCP-128 was fixed as a side effect of fixing DBCP-198. The commit that references DBCP-128 only adds tests to confirm this. 
 - The commit c03da1c2113a09e06104aba58e7e99ece5950f64 is unrelated to the issue JSPWIKI-2, even though this is explicitly linked through the commit message.
+- The commit 340b7b69145a03a9702019627cad3071d5d67ef5 is unrelated to the issue JCS-1. This was a false positive for SZZ that was not corrected through our manual validation.
+- The commit 059c67079ad0edfb785215578d575dcdcc1daa21 is unrelated to the issue JCS-1. This was a false positive for SZZ that was not corrected through our manual validation.
+- The commit 4ff963b47fd82cb1ca8394027518a9183f39176e is unrelated to the issue EAGLE-700. The issue is referenced through the branch name from which the commit was merged and the false positive could only be detected by analyzing the actual code change.
