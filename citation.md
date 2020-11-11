@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Releases
+title: Citing SmartSHARK
 permalink: /citation/
 ---
 
