@@ -4,16 +4,9 @@ title: Publications
 permalink: /publications/
 ---
 
-# Citing SmartSHARK
-
-If you are using SmartSHARK and want to cite SmartSHARK in a publication, please always cite this article and do not only use links to the GitHub repositories of these tools. You can export a Bibtex entry if you follow the link.
-- [Fabian Trautsch, Steffen Herbold, Philip Makedonski, Jens Grabowski: Addressing problems with replicability and validity of repository mining studies through a smart data platform, Empirical Software Engineering, Springer, 2017](https://doi.org/10.1007/s10664-017-9537-x)
-
-Depending on the style of the publication venue and the space restriction, you may also reference the GitHub repositories of the tools from SmartSHARK that you were using. 
-
 # Publications using SmartSHARK
 
-Below you find a (possibly incomplete) list of the publications using SmartSHARK. 
+Below you find a (possibly incomplete) list of the publications using SmartSHARK. You can find a citation guide for SmartSHARK [here](citation.md).
 
 ## Journals
 
