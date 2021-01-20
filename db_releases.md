@@ -13,17 +13,33 @@ If you want to know how to use the releases, our [usage examples repository](htt
 
 ## List of Releases
 
-### SmartSHARK MongoDB Release 1.1
+### SmartSHARK MongoDB Release 2.0
 
 | Field | Value |
 |---|---|
-| Short description | Release 1.1 updates release 1.0 with manually validated lines for bug fixing commits. |
-| Download Link | [https://doi.org/10.5281/zenodo.4095238](https://doi.org/10.5281/zenodo.4095238) |
+| Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. The labels were extended with a better automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where they are available. |
+| Download Link | TODO |
+| Size | Data Size: TBD Gigabyte<br>Backup Size: TBD Gigabyte |
+| MongoDB Version | 4.0 |
+| PycoSHARK Version | 1.4.2 |
+| jSHARK Version | 2.0.5 |
+| Citation | [See citation guide](citation.md) |
+
+### SmartSHARK MongoDB Release 1.2
+
+| Field | Value |
+|---|---|
+| Short description | Release 1.2 updates release 1.0 with manually validated lines for bug fixing commits. This release is a bugfix release for 1.1 which should not be used, because a small percentage of manually labeled may have been affected by a bug that we now corrected. |
+| Download Link | TODO |
 | Size | Data Size: 172.9 Gigabyte<br>Backup Size: 36.2 Gigabyte |
 | MongoDB Version | 4.0 |
-| PycoSHARK Version | 1.3.1 |
+| PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.5 |
-| Citation | Preprint available soon. |
+| Citation | [See citation guide](citation.md) |
+
+### SmartSHARK MongoDB Release 1.1
+
+This release contains a bug. Release 1.2 is the replacement that contains the correction of the bug. 
 
 ### SmartSHARK MongoDB Release 1.0
 
@@ -35,7 +51,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.2.7 |
 | jSHARK Version | 2.0.5 |
-| Citation | @Misc{Herbold2019,<br>  author        = {Steffen Herbold and Alexander Trautsch and Fabian Trautsch and Benjamin Ledel},<br>  title         = {Issues with SZZ: An empirical assessment of the state of practice of defect prediction data collection},<br>  year          = {2019},<br>  archiveprefix = {arXiv},<br>  eprint        = {1911.08938},<br>} |
+| Citation | [See citation guide](citation.md) |
 
 **Known Issues with the Data:**
 
