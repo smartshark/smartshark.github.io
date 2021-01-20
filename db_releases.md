@@ -17,7 +17,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 
 | Field | Value |
 |---|---|
-| Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. The labels were extended with a better automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where they are available. |
+| Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available. |
 | Download Link | TODO |
 | Size | Data Size: TBD Gigabyte<br>Backup Size: TBD Gigabyte |
 | MongoDB Version | 4.0 |
