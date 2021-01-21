@@ -35,6 +35,9 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.5 |
+| Projects | Apache projects: *ant-ivy*, archiva, calcite, cayenne, *commons-bcel*, *commons-beanutils*, *commons-codec*, *commons-collections*, *commons-compress*, *commons-configuration*, *commons-dbcp*, *commons-digester*, *commons-io*, *commons-jcs*, *commons-jexl*, *commons-lang*, *commons-math*, *commons-net*, *commons-scxml*, *commons-validator*, *commons-vfs*, deltaspike, eagle, *giraph*, *gora*, jspwiki, knox, kylin, lens, mahout, manifoldcf, nutch, *opennlp*, *parquet-mr*, *santuario-java*, systemml, tika, *wss4j* |
+| Data | version control history, software metrics, PMD warnings, refactorings, change types, bug fix labels, bug inducing changes, issue tracking data from Jira. |
+| Manual validations | Issue types and links from commits to issues for all 38 projects. Lines that contribute to bug fixes for the 23 projects marked italic. |
 | Citation | [See citation guide](citation.md) |
 
 ### SmartSHARK MongoDB Release 1.1
@@ -51,6 +54,9 @@ This release contains a bug. Release 1.2 is the replacement that contains the co
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.2.7 |
 | jSHARK Version | 2.0.5 |
+| Projects | Apache projects: ant-ivy, archiva, calcite, cayenne, commons-bcel, commons-beanutils, commons-codec, commons-collections, commons-compress, commons-configuration, commons-dbcp, commons-digester, commons-io, commons-jcs, commons-jexl, commons-lang, commons-math, commons-net, commons-scxml, commons-validator, commons-vfs, deltaspike, eagle, giraph, gora, jspwiki, knox, kylin, lens, mahout, manifoldcf, nutch, opennlp, parquet-mr, santuario-java, systemml, tika, wss4j |
+| Data | version control history, software metrics, PMD warnings, refactorings, change types, bug fix labels, bug inducing changes, issue tracking data from Jira. |
+| Manual validations | Issue types and links from commits to issues for all 38 projects. |
 | Citation | [See citation guide](citation.md) |
 
 **Known Issues with the Data:**
