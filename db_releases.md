@@ -23,6 +23,9 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.5 |
+| Projects | Apache projects: activemq, **ant-ivy**, *archiva*, bigtop, *calcite*, *cayenne*, **commons-bcel**, **commons-beanutils**, **commons-codec**, **commons-collections**, **commons-compress**, **commons-configuration**, **commons-dbcp**, **commons-digester**, commons-imaging, **commons-io**, **commons-jcs**, **commons-jexl**, **commons-lang**, **commons-math**, **commons-net**, **commons-scxml**, **commons-validator**, **commons-vfs**, *deltaspike*, derby, directory-fortress-core, *eagle*, falcon, flume, **giraph**, **gora**, helix, httpcomponents-client, httpcomponents-core, jackrabbit, jena, *jspwiki*, *knox*, *kylin*, *lens*, *mahout*, *manifoldcf*, mina-sshd, *nutch*, oozie, **opennlp**, **parquet-mr**, pdfbox, phoenix, pig, ranger, roller, samza, **santuario-java**, storm, streams, struts, *systemml*, tez, *tika*, **wss4j**, xerces2-j zookeeper |
+| Data | version control history, software metrics, PMD warnings, refactorings, change types, bug fix labels, bug inducing changes, issue tracking data from Jira and GitHub, mailing lists, continuous integration data from Travis CI, pull request and code review data from GitHub. |
+| Manual validations | Issue types and links from commits to issues for 38 projects (italic or boldface). Lines that contribute to bug fixes for the 23 projects marked boldface. |
 | Citation | [See citation guide](citation.md) |
 
 ### SmartSHARK MongoDB Release 1.2
