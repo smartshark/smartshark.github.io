@@ -18,7 +18,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | Field | Value |
 |---|---|
 | Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available. |
-| Download Link | TODO |
+| Download Link | [https://doi.org/10.5281/zenodo.4462750](https://doi.org/10.5281/zenodo.4462750) |
 | Size | Data Size: TBD Gigabyte<br>Backup Size: TBD Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
@@ -33,7 +33,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | Field | Value |
 |---|---|
 | Short description | Release 1.2 updates release 1.0 with manually validated lines for bug fixing commits. This release is a bugfix release for 1.1 which should not be used, because a small percentage of manually labeled may have been affected by a bug that we now corrected. |
-| Download Link | TODO |
+| Download Link | [https://doi.org/10.5281/zenodo.4462720](https://doi.org/10.5281/zenodo.4462720) |
 | Size | Data Size: 172.9 Gigabyte<br>Backup Size: 36.2 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
