@@ -17,9 +17,9 @@ If you want to know how to use the releases, our [usage examples repository](htt
 
 | Field | Value |
 |---|---|
-| Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available. |
-| Download Link | [https://doi.org/10.5281/zenodo.4462750](https://doi.org/10.5281/zenodo.4462750) |
-| Size | Data Size: TBD Gigabyte<br>Backup Size: TBD Gigabyte |
+| Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
+| Download Link | Full Version: [https://doi.org/10.6084/m9.figshare.13651346.v1](https://doi.org/10.6084/m9.figshare.13651346.v1)<br>Small Version: [https://doi.org/10.5281/zenodo.4462750](https://doi.org/10.5281/zenodo.4462750) |
+| Size | Data Size (Full/Small): 1140 Gigabyte / TBD<br>Backup Size: 173 Gigabyte / TBD |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.5 |
