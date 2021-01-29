@@ -19,7 +19,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 |---|---|
 | Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
 | Download Link | Full Version: [https://doi.org/10.6084/m9.figshare.13651346.v1](https://doi.org/10.6084/m9.figshare.13651346.v1)<br>Small Version: [https://doi.org/10.5281/zenodo.4462750](https://doi.org/10.5281/zenodo.4462750) |
-| Size | Data Size (Full/Small): 1140 Gigabyte / TBD<br>Backup Size: 173 Gigabyte / TBD |
+| Size | Data Size (Full/Small): 1140 Gigabyte / 37 Gigabyte<br>Backup Size: 173 Gigabyte / 10 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.5 |
@@ -34,7 +34,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 |---|---|
 | Short description | Release 1.2 updates release 1.0 with manually validated lines for bug fixing commits. This release is a bugfix release for 1.1 which should not be used, because a small percentage of manually labeled may have been affected by a bug that we now corrected. |
 | Download Link | [https://doi.org/10.5281/zenodo.4462720](https://doi.org/10.5281/zenodo.4462720) |
-| Size | Data Size: 172.9 Gigabyte<br>Backup Size: 36.2 Gigabyte |
+| Size | Data Size: 173 Gigabyte<br>Backup Size: 36 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.5 |
@@ -53,7 +53,7 @@ This release contains a bug. Release 1.2 is the replacement that contains the co
 |---|---|
 | Short description | This is the first major release of the SmartSHARK MongoDB and data for 38 Java Apache projects. For each project, the data contains the issue tracking data, mailing list data, and version control data, including software metrics, PMD warnings, change type analysis, automated refactoring detection, links between commits and issues, commit labels, and inducing changes. The type of the linked bug issues and the issue links of these data sets were manually validated. |
 | Download Link | [https://doi.org/10.5281/zenodo.4071448](https://doi.org/10.5281/zenodo.4071448) |
-| Size | Data Size: 172.9 Gigabyte<br>Backup Size: 36.2 Gigabyte |
+| Size | Data Size: 173 Gigabyte<br>Backup Size: 36 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.2.7 |
 | jSHARK Version | 2.0.5 |
