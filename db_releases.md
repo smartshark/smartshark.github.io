@@ -18,11 +18,11 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | Field | Value |
 |---|---|
 | Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
-| Download Link | Full Version: [https://doi.org/10.6084/m9.figshare.13651346.v1](https://doi.org/10.6084/m9.figshare.13651346.v1)<br>Small Version: [https://doi.org/10.5281/zenodo.4462750](https://doi.org/10.5281/zenodo.4462750) |
-| Size | Data Size (Full/Small): X Gigabyte / X Gigabyte<br>Backup Size: 198 Gigabyte / 11 Gigabyte |
+| Download Link | Full Version: [http://141.5.100.155/smartshark_2_1.agz](http://141.5.100.155/smartshark_2_1.agz)<br>Small Version: [http://141.5.100.155/smartshark_2_1_small.agz](http://141.5.100.155/smartshark_2_1_small.agz) <br>DOIs in preparation|
+| Size | Data Size (Full/Small): X Gigabyte / 40 Gigabyte<br>Backup Size: 198 Gigabyte / 11 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
-| jSHARK Version | 2.0.5 |
+| jSHARK Version | 2.0.6 |
 | Projects | Apache projects: activemq, **ant-ivy**, *archiva*, bigtop, *calcite*, *cayenne*, **commons-bcel**, **commons-beanutils**, **commons-codec**, **commons-collections**, **commons-compress**, **commons-configuration**, **commons-dbcp**, **commons-digester**, commons-imaging, **commons-io**, **commons-jcs**, **commons-jexl**, **commons-lang**, **commons-math**, **commons-net**, **commons-scxml**, **commons-validator**, **commons-vfs**, **curator** cxf-fediz, *deltaspike*, derby, directory-fortress-core, directory-kerby, directory-studio, *eagle*, falcon, fineract, flume, freemarker, **giraph**, **gora**, helix, httpcomponents-client, httpcomponents-core, jackrabbit, james, jena, *jspwiki*, kafka, *knox*, *kylin*, *lens*, *mahout*, *manifoldcf*, maven, mina-sshd, nifi, *nutch*, oozie, openjpa, openwebbeans, **opennlp**, **parquet-mr**, pdfbox, phoenix, pig, ranger, roller, samza, **santuario-java**, storm, streams, struts, *systemml*, tez, *tika*, **wss4j**, xerces2-j, xmlgraphics-batik, zeppelin, zookeeper |
 | Data | version control history, software metrics, PMD warnings, refactorings, change types, bug fix labels, bug inducing changes, issue tracking data from Jira and GitHub, mailing lists, continuous integration data from Travis CI, pull request and code review data from GitHub. |
 | Manual validations | Issue types and links from commits to issues for 38 projects (italic or boldface). Lines that contribute to bug fixes for the 23 projects marked boldface. |
@@ -34,7 +34,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 |---|---|
 | Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
 | Download Link | Full Version: [https://doi.org/10.6084/m9.figshare.13651346.v1](https://doi.org/10.6084/m9.figshare.13651346.v1)<br>Small Version: [https://doi.org/10.5281/zenodo.4462750](https://doi.org/10.5281/zenodo.4462750) |
-| Status | **Superseded by 2.0 - should not be used for new projects!** |
+| Status | **Superseded by 2.1 - should not be used for new projects!** |
 | Size | Data Size (Full/Small): 1140 Gigabyte / 37 Gigabyte<br>Backup Size: 173 Gigabyte / 10 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
@@ -50,7 +50,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 |---|---|
 | Short description | Release 1.2 updates release 1.0 with manually validated lines for bug fixing commits. This release is a bugfix release for 1.1 which should not be used, because a small percentage of manually labeled may have been affected by a bug that we now corrected. |
 | Status | Superseded by 2.x releases. Should only be if only manually validated data is considered. |
-| Download Link | [https://doi.org/10.5281/zenodo.4462720](https://doi.org/10.5281/zenodo.4462720) |
+| Download Link | [TODO](TODO) |
 | Size | Data Size: 173 Gigabyte<br>Backup Size: 36 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
