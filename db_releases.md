@@ -18,7 +18,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 | Field | Value |
 |---|---|
 | Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
-| Download Link | Full Version: [http://141.5.100.155/smartshark_2_1.agz](http://141.5.100.155/smartshark_2_1.agz)<br>Small Version: [http://141.5.100.155/smartshark_2_1_small.agz](http://141.5.100.155/smartshark_2_1_small.agz) <br>DOIs in preparation|
+| Download Link | Full Version: [smartshark_2_1.agz](http://141.5.100.155/smartshark_2_1.agz)<br>Small Version: [smartshark_2_1_small.agz](http://141.5.100.155/smartshark_2_1_small.agz) <br>DOIs in preparation|
 | Size | Data Size (Full/Small): X Gigabyte / 40 Gigabyte<br>Backup Size: 198 Gigabyte / 11 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
@@ -50,7 +50,7 @@ If you want to know how to use the releases, our [usage examples repository](htt
 |---|---|
 | Short description | Release 1.2 updates release 1.0 with manually validated lines for bug fixing commits. This release is a bugfix release for 1.1 which should not be used, because a small percentage of manually labeled may have been affected by a bug that we now corrected. |
 | Status | Superseded by 2.x releases. Should only be if only manually validated data is considered. |
-| Download Link | [TODO](TODO) |
+| Download Link | [smartshark_1_3.agz](http://141.5.100.155/smartshark_1_3.agz)<br>DOIs in preparation |
 | Size | Data Size: 173 Gigabyte<br>Backup Size: 36 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
