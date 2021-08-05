@@ -9,7 +9,13 @@ As part of SmartSHARK, we have already collect large amount of data, that we alr
 Since we are still incrementally updating and improving our database, we decided to organize our usage of the database in release from here on out and try to include
 the releases we already used in publications. An increase of the minor version means that more that for the existing projects was added. With major version we also always add more projects. We list the known issues with the data at the bottom of this page. 
 
+
+
 If you want to know how to use the releases, our [usage examples repository](https://github.com/smartshark/usage-examples) contains everything you need. 
+
+## License
+
+All release are published under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. In addition to this homepage, this license is also part of the metadata of the DOI citable long-term archives of the releases (e.g., Zenodo, Figshare).
 
 ## List of Releases
 
