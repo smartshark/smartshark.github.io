@@ -56,7 +56,7 @@ All release are published under the [CC BY 4.0](https://creativecommons.org/lice
 |---|---|
 | Short description | Release 1.2 updates release 1.0 with manually validated lines for bug fixing commits. This release is a bugfix release for 1.1 which should not be used, because a small percentage of manually labeled may have been affected by a bug that we now corrected. |
 | Status | Superseded by 2.x releases. Should only be if only manually validated data is considered. |
-| Download Link | [smartshark_1_3.agz](http://141.5.100.155/smartshark_1_3.agz)<br>DOIs in preparation |
+| Download Link | [https://doi.org/10.25625/MUZPSF](https://doi.org/10.25625/MUZPSF)<br/>Alternative Download: [smartshark_1_3.agz](http://141.5.100.155/smartshark_1_3.agz) |
 | Size | Data Size: 173 Gigabyte<br>Backup Size: 36 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
