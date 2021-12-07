@@ -19,6 +19,21 @@ All release are published under the [CC BY 4.0](https://creativecommons.org/lice
 
 ## List of Releases
 
+### SmartSHARK MongoDB Release 2.2
+
+| Field | Value |
+|---|---|
+| Short description | Extension of the database with data for 21 additional Java Projects. The data for the new projects does not contain any manual validations.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
+| Download Link | Full Version: DOI to be announced <br> Small Version: DOI to be announced <br> Full Version Alternative Download: [smartshark_2_2.agz](http://141.5.100.155/smartshark_2_2.agz)<br>Small Version Alternative Download: [smartshark_2_2_small.agz](http://141.5.100.155/smartshark_2_2_small.agz)|
+| Size | Data Size (Full/Small): X Gigabyte / X Gigabyte<br>Backup Size: 246 Gigabyte / X Gigabyte |
+| MongoDB Version | 4.0 |
+| PycoSHARK Version | 1.4.5 |
+| jSHARK Version | 2.0.6 |
+| Projects | Apache projects: activemq, **ant-ivy**, *archiva*, avro, bigtop, *calcite*, *cayenne*, **commons-bcel**, **commons-beanutils**, **commons-codec**, **commons-collections**, **commons-compress**, **commons-configuration**, **commons-dbcp**, **commons-digester**, commons-imaging, **commons-io**, **commons-jcs**, **commons-jexl**, **commons-lang**, **commons-math**, **commons-net**, **commons-scxml**, **commons-validator**, **commons-vfs**, **curator** cxf-fediz, *deltaspike*, derby, directory-fortress-core, directory-kerby, directory-studio, *eagle*, falcon, fineract, flume, freemarker, **giraph**, **gora**, helix, httpcomponents-client, httpcomponents-core, jackrabbit, james, jena, *jspwiki*, juddi, kafka, karaf-cellar, *knox*, *kylin*, *lens*, *mahout*, *manifoldcf*, maven, maven-archetype, maven-doxia, maven-scm, maven-surefire, maven-wagon,   mina-sshd, nifi, *nutch*, oozie, openjpa, openwebbeans, **opennlp**, oodt, **parquet-mr**, pdfbox, phoenix, pig, portals-pluto, qpid-jms, ranger, reef, roller, samza, **santuario-java**, sis, storm, streams, struts, *systemml*, tapestry-5, tez, *tika*, uima-ducc, usergrid, velocity-engine, velocity-tools, **wss4j**, xerces2-j, xmlgraphics-batik, zeppelin, zookeeper |
+| Data | version control history, software metrics, PMD warnings, refactorings, change types, bug fix labels, bug inducing changes, issue tracking data from Jira and GitHub, mailing lists, continuous integration data from Travis CI, pull request and code review data from GitHub. |
+| Manual validations | Issue types and links from commits to issues for 38 projects (italic or boldface). Lines that contribute to bug fixes for the 23 projects marked boldface. |
+| Citation | [See citation guide](citation.md) |
+
 ### SmartSHARK MongoDB Release 2.1
 
 | Field | Value |
