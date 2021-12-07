@@ -40,7 +40,7 @@ All release are published under the [CC BY 4.0](https://creativecommons.org/lice
 |---|---|
 | Short description | Extension of the database with data for 28 additional Java Projects. The data for the new projects does not contain any manual validations. Data for pull requests from GitHub and Travis CI was added for all projects that used these systems. The labels were extended with a better fully automated bugfix label that uses a machine learning model for issue type prediction. The inducing changes were extended to also determine the inducing changes for this label, as well as to utilize the manually validated lines of bug fixing commits, where this data is available.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
 | Download Link | Full Version: [https://doi.org/10.25625/7OZ1SP](https://doi.org/10.25625/7OZ1SP) <br> Small Version: [https://doi.org/10.25625/PHV2VX](https://doi.org/10.25625/PHV2VX) <br> Full Version Alternative Download: [smartshark_2_1.agz](http://141.5.100.155/smartshark_2_1.agz)<br>Small Version Alternative Download: [smartshark_2_1_small.agz](http://141.5.100.155/smartshark_2_1_small.agz)|
-| Size | Data Size (Full/Small): X Gigabyte / 40 Gigabyte<br>Backup Size: 198 Gigabyte / 11 Gigabyte |
+| Size | Data Size (Full/Small): 510 Gigabyte / 40 Gigabyte<br>Backup Size: 198 Gigabyte / 11 Gigabyte |
 | MongoDB Version | 4.0 |
 | PycoSHARK Version | 1.4.2 |
 | jSHARK Version | 2.0.6 |
