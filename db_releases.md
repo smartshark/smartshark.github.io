@@ -25,7 +25,7 @@ All release are published under the [CC BY 4.0](https://creativecommons.org/lice
 |---|---|
 | Short description | Extension of the database with data for 21 additional Java Projects. The data for the new projects does not contain any manual validations.<br><br>Due to the size of the static analysis results, we also provide a smaller version of this release. The smaller version contains all data, except the code entity states, the code group states, and the clone instances.|
 | Download Link | Full Version: DOI to be announced <br> Small Version: DOI to be announced <br> Full Version Alternative Download: [smartshark_2_2.agz](http://141.5.100.155/smartshark_2_2.agz)<br>Small Version Alternative Download: [smartshark_2_2_small.agz](http://141.5.100.155/smartshark_2_2_small.agz)|
-| Size | Data Size (Full/Small): X Gigabyte / X Gigabyte<br>Backup Size: 246 Gigabyte / 37 Gigabyte |
+| Size | Data Size (Full/Small): X Gigabyte / 65 Gigabyte<br>Backup Size: 246 Gigabyte / 37 Gigabyte |
 | MongoDB Version | 4.4 |
 | PycoSHARK Version | 1.4.5 |
 | jSHARK Version | 2.0.6 |
